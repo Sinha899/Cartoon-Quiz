@@ -1,0 +1,72 @@
+/* General Body Styling */
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/918/692/large_2x/cloud-sky-cartoon-background-blue-sky-with-white-clouds-flat-poster-or-flyer-cloudscape-panorama-pattern-seamless-colored-abstract-fluffy-texture-vector.jpg");
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the Quiz */
+.holder {
+    width: 800px;
+    border: 4px solid red;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+    color: orange;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+/* Flexbox for Questions */
+.quiz-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Individual Question Blocks */
+.questions {
+    background-color: beige;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    width: 48%; /* Two questions side-by-side */
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* Labels and Text */
+label {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Button Styling */
+button {
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+/* Result Message */
+#result {
+    font-size: 18px;
+}
